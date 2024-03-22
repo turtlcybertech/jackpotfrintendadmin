@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jackpotYanta2 - Admin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+      integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="bodyId" style="display: none">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="navbar-brand fw-bold text-primary"> Jackpotyantra2 </span>
+        <span class="navbar-brand text-xs text-primary" id="adminname"></span>
+      </div>
+    </nav>
+    <div class="container border border-top-0 py-2">
+      <div class="bg-warning rounded px-2 p-1 d-flex justify-content-between">
+        <span> Result Timing </span>
+        <span class="fw-semibold text-white bg-black rounded px-2" id="nextTime"> 00:00 -- </span>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>SR</th>
+            <th>Result</th>
+            <th>Set Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-nowrap">CHETAK</td>
+            <td>A</td>
+            <td id="a-result">0</td>
+            <td><input type="number" id="a-input" class="w-50 form-control form-control-sm text-center" style="min-width: 40px" /></td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">RAJA RANI</td>
+            <td>B</td>
+            <td id="b-result">0</td>
+            <td><input type="number" id="b-input" class="w-50 form-control form-control-sm text-center" style="min-width: 40px" /></td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">GOLDEN</td>
+            <td>C</td>
+            <td id="c-result">0</td>
+            <td><input type="number" id="c-input" class="w-50 form-control form-control-sm text-center" style="min-width: 40px" /></td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">LUCKY</td>
+            <td>D</td>
+            <td id="d-result">0</td>
+            <td><input type="number" id="d-input" class="w-50 form-control form-control-sm text-center" style="min-width: 40px" /></td>
+          </tr>
+          <tr>
+            <td class="text-nowrap">SUPER</td>
+            <td>E</td>
+            <td id="e-result">0</td>
+            <td><input type="number" id="e-input" class="w-50 form-control form-control-sm text-center" style="min-width: 40px" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <button class="btn btn-primary" onclick="saveFn()">Save</button>
+        <button class="btn btn-danger" onclick="cancelFn()">Cancel</button>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"
+      integrity="sha512-ToL6UYWePxjhDQKNioSi4AyJ5KkRxY+F1+Fi7Jgh0Hp5Kk2/s8FD7zusJDdonfe5B00Qw+B8taXxF6CFLnqNCw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script8525.js"></script>
+  </body>
+</html>
